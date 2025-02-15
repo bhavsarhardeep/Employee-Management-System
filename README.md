@@ -38,7 +38,7 @@ A **Java-based Employee Management System** built using **Swing, AWT**, and **SQ
      );
      ```  
    - Update **JDBC connection settings** in the project accordingly.  
-4. Run the `login.java` file to launch the application.  
+4. Run the `splash.java` file to launch the application.  
 5. Use the **Add Employee** section to enter employee details.  
 6. Manage employee records with **update, view, and remove** functionalities.  
 
