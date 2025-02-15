@@ -26,16 +26,24 @@ A **Java-based Employee Management System** built using **Swing, AWT**, and **SQ
      ```sql
      CREATE DATABASE employee_management;
      USE employee_management;
-     CREATE TABLE employees (
-         emp_id INT AUTO_INCREMENT PRIMARY KEY,
-         name VARCHAR(50),
-         age INT,
-         gender VARCHAR(10),
-         job VARCHAR(50),
-         salary DECIMAL(10,2),
-         phone VARCHAR(15),
-         email VARCHAR(50)
+     CREATE TABLE login (
+         username VARCHAR(50),
+         password VARCHAR(50,
      );
+     CREATE TABLE employee (
+         name VARCHAR(50),
+         fname VARCHAR(50,
+         dob VARCHAR(50),
+         salary VARCHAR(50),
+         address VARCHAR(50),
+         phone VARCHAR(50),
+         email VARCHAR(50),
+         education VARCHAR(50),
+         designation VARCHAR(50),
+         aadhar VARCHAR(50),
+         empid VARCHAR(50),
+     );
+     
      ```  
    - Update **JDBC connection settings** in the project accordingly.  
 4. Run the `splash.java` file to launch the application.  
